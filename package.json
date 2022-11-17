@@ -1,0 +1,19 @@
+{
+  "name": "game-template",
+  "version": "1.0.0",
+  "description": "Starter template for game editing",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "server": "serve dist"
+  },
+  "author": "Nemanja Miljkovic",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.0",
+    "parcel": "^2.8.0",
+    "serve": "^14.1.1",
+    "prettier": "^2.7.1"
+  }
+}
